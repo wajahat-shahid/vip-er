@@ -1,11 +1,11 @@
 def scheduleActivities(subject_array,star,final):
-    n = len(final)
+    length_of_Array = len(final)
 
-    Array=[0]*n
+    Array=[0]*length_of_Array
     i = 0
     Array[i]=subject_array[i]
     
-    for j in range(n):
+    for j in range(length_of_Array):
         
         if star[j] >= final[i]:
             i = j
