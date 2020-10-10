@@ -1,6 +1,4 @@
 def scheduleActivities(subject_array,star,final):
-    length = len(final)
-
     length_of_Array = len(final)
 
     Array=[0]*length_of_Array
