@@ -23,3 +23,8 @@ star = [1, 3, 0, 5, 8, 5]
 final = [2, 4, 6, 7, 9, 9]
 Array = scheduleActivities(subject_array,star,final)
 print_Array(Array)
+
+print("Without any Doubt Python has taken me to a level of ignoring previous structured Languages I've learned so far")
+
+for i in range(5):
+    print(" ")
