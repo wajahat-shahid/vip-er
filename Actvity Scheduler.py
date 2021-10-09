@@ -27,4 +27,4 @@ print_Array(Array)
 print("Without any Doubt Python has taken me to a level of ignoring previous structured Languages I've learned so far")
 
 for i in range(5):
-    print(" ")
+    print("Accept the Change")
