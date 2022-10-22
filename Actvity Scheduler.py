@@ -1,3 +1,4 @@
+# Main Function that Schedule the Lectures of Subjects according to their starting and ending time
 def scheduleActivities(subject_array,star,final):
     length_of_Array = len(final)
 
@@ -9,9 +10,10 @@ def scheduleActivities(subject_array,star,final):
         if star[j] >= final[i]:
             i = j
             Array[i]=subject_array[j]
-
+            
     return Array
   
+# Only Prints Data Elements in Array
 def print_Array(A):
     print ("The following activities are selected")
     for i in range(len(A)):
