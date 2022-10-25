@@ -1,3 +1,4 @@
+#   This is scheduler program that schedule lectures of subjects depending upon starting and ending time of theirs.
 def scheduleActivities(subject_array,star,final):
     length_of_Array = len(final)
 
@@ -12,6 +13,7 @@ def scheduleActivities(subject_array,star,final):
 
     return Array
   
+#   This method only prints data in Array
 def print_Array(A):
     print ("The following activities are selected")
     for i in range(len(A)):
